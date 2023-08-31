@@ -137,10 +137,24 @@ figcaption {
 
 .contact p {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     color: #455b55;
     background-color: #dff6da;
     padding: 20px;
     margin: 10px;
-    width: 300px;
+    width: 100px;
     border-radius: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color:#455b55;
+}
+
+.contact a:hover {
+    text-decoration: none;
+    color:#dff6da;
+    background-color:#455b55;
+    border-radius: 50px;
+    padding: 0px 5px 0 5px;
 }
