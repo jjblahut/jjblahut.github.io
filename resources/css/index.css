@@ -1,0 +1,130 @@
+.welcome-banner {
+    background-image: url("gaudi4.jpg");
+    height: 300px;
+    width: auto;
+    background-size: cover;
+}
+
+.welcome-message {
+    font-family: 'Lucida Console';
+    background-color: white;
+    width: 440px;
+    padding: 5px;
+    margin: 5px;
+    opacity: .60;
+    position: relative;
+    display: inline-block;
+}
+
+.intro {
+    background-color: #dff6da;
+    width: 220px;
+    height: 130px;
+    margin: 20px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex: 0 0 2em;
+    align-content: center;
+}
+
+.intro p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #455b55;
+    font-weight: medium;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+    margin: 30px 30px 30px 0px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.intro img {
+    height: 110px;
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #455b55;
+}
+
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: #4e793b;
+    position: sticky;
+    text-align: center;
+}
+
+nav li {
+    font-family: 'Lucida Console';
+    font-size: 30px;
+    font-weight: medium;
+    color: white;
+    text-align: center;
+    display: inline;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: #455b55;
+    background-color: #dff6da;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Lucida Console';
+    margin: 40px 40px 40px 40px;
+    color: #455b55;
+}
+
+.about-me h2 {
+    font-family: 'Lucida Console';
+    margin: 40px 40px 0px 40px;
+    color: #455b55;
+}
+
+.about-me p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #455b55;
+    background-color: #dff6da;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.about-me img {
+    width: 400px;
+    height: auto;
+    align-items: center;
+    margin: 30px 30px 30px 30px;
+    box-shadow: 5px 5px 5px #455b55;
+}
+
+.about-me ul {
+    font-family: 'Courier New', Courier, monospace;
+    color: #455b55;
+    background-color: #dff6da;
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+    border-radius: 20px;
+    list-style-type: circle;
+}
+
+figcaption {
+    font-family: 'Courier New', Courier, monospace;
+    color:#455b55;
+    margin: 0px 30px 30px 30px;
+    width: 400px;
+}
