@@ -16,15 +16,23 @@
     display: inline-block;
 }
 
+.page-background {
+    background-color:#CEDEBD;
+    padding: 10px;
+    width: 60%;
+}
+
 .intro {
     background-color: #dff6da;
     width: 220px;
     height: 130px;
-    margin: 20px 20px;
+    margin: 20px 20px 20px 20px;
     border-radius: 20px;
     display: flex;
-    flex: 0 0 2em;
     align-content: center;
+    border-style: double;
+    border-width: 3px;
+    border-color: #4e793b;
 }
 
 .intro p {
@@ -45,6 +53,7 @@
     width: 100px;
     border-radius: 50px;
     box-shadow: 5px 5px 5px #455b55;
+    margin: 5px;
 }
 
 
@@ -101,6 +110,9 @@ h1 {
     margin: 10px;
     width: 50%;
     border-radius: 20px;
+    border-style: double;
+    border-width: 3px;
+    border-color: #4e793b;
 }
 
 .about-me img {
@@ -120,6 +132,9 @@ h1 {
     width: 20%;
     border-radius: 20px;
     list-style-type: circle;
+    border-style: double;
+    border-width: 3px;
+    border-color: #4e793b;
 }
 
 figcaption {
@@ -144,6 +159,9 @@ figcaption {
     margin: 10px;
     width: 100px;
     border-radius: 20px;
+    border-style: double;
+    border-width: 3px;
+    border-color: #4e793b;
 }
 
 .contact a {
