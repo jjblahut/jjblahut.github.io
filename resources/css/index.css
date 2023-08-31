@@ -128,3 +128,19 @@ figcaption {
     margin: 0px 30px 30px 30px;
     width: 400px;
 }
+
+.contact h2 {
+    font-family: 'Lucida Console';
+    margin: 40px 40px 0px 40px;
+    color: #455b55;
+}
+
+.contact p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #455b55;
+    background-color: #dff6da;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 20px;
+}
