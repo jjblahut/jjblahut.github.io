@@ -16,6 +16,12 @@
     display: inline-block;
 }
 
+.page-background {
+    background-color:#CEDEBD;
+    padding: 10px;
+    width: 60%;
+}
+
 nav {
     list-style-type: none;
     margin: 0;
@@ -53,4 +59,28 @@ h1 {
     font-family: 'Lucida Console';
     margin: 40px 40px 40px 40px;
     color: #455b55;
+}
+
+h2 {
+    font-family: 'Lucida Console';
+    color: #455b55;
+}
+
+h3 {
+    font-family: 'Lucida Console';
+    color: #455b55;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #455b55;
+    font-weight: medium;
+    font-size: 18px;
+}
+
+.swift-swift-app img {
+    width: auto;
+    height: 300px;
+    margin: 5px;
+    border-radius: 20px;
 }
