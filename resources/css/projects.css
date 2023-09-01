@@ -83,4 +83,5 @@ p {
     height: 300px;
     margin: 5px;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px #455b55;
 }
