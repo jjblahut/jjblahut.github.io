@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .welcome-banner {
     background-image: url("gaudi4.jpg");
     height: 300px;
@@ -17,25 +21,22 @@
 }
 
 .page-background {
-    background-color:#CEDEBD;
-    padding: 10px;
-    width: 60%;
+    background-image: linear-gradient(to bottom right,#B9D9EB, #468FEA);
+    padding: 10px 10px;
 }
 
 nav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     width: 100%;
-    height: auto;
     background-color: #4e793b;
-    position: sticky;
     text-align: center;
+    position: fixed;
+    opacity: 90%;
 }
 
 nav li {
     font-family: 'Lucida Console';
-    font-size: 30px;
+    font-size: 20px;
     font-weight: medium;
     color: white;
     text-align: center;
@@ -50,7 +51,7 @@ nav a:hover {
 
 nav a {
     display: inline-block;
-    padding: 8px;
+    padding-right: 8px;
     color: white;
     text-decoration: none;
 }
@@ -84,4 +85,10 @@ p {
     margin: 5px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #455b55;
+}
+
+.swift-swift-app {
+    background-color: #dff6da;
+    padding: 5px;
+    border-radius: 30px;
 }

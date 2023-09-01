@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .welcome-banner {
     background-image: url("gaudi4.jpg");
     height: 300px;
@@ -18,18 +22,16 @@
 
 nav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     width: 100%;
-    height: auto;
     background-color: #4e793b;
-    position: sticky;
     text-align: center;
+    position: fixed;
+    opacity: 90%;
 }
 
 nav li {
     font-family: 'Lucida Console';
-    font-size: 30px;
+    font-size: 20px;
     font-weight: medium;
     color: white;
     text-align: center;
@@ -44,7 +46,7 @@ nav a:hover {
 
 nav a {
     display: inline-block;
-    padding: 8px;
+    padding-right: 8px;
     color: white;
     text-decoration: none;
 }
