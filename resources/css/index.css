@@ -21,12 +21,12 @@ body {
 }
 
 .page-background {
-    background-image: linear-gradient(to bottom right,#B9D9EB, #468FEA);
+    background-image: linear-gradient(to bottom right,#dff6da, #4e793b);
     padding: 10px 10px;
 }
 
 .intro {
-    background-color: #dff6da;
+    background-color: #FEFEFA;
     width: 220px;
     height: 130px;
     margin: 20px 20px 20px 20px;
@@ -81,7 +81,7 @@ nav li {
 
 nav a:hover {
     color: #455b55;
-    background-color: #dff6da;
+    background-color: #FEFEFA;
 }
 
 nav a {
@@ -106,7 +106,7 @@ h1 {
 .about-me p {
     font-family: 'Courier New', Courier, monospace;
     color: #455b55;
-    background-color: #dff6da;
+    background-color: #FEFEFA;
     padding: 20px;
     margin: 10px;
     width: 50%;
@@ -127,7 +127,7 @@ h1 {
 .about-me ul {
     font-family: 'Courier New', Courier, monospace;
     color: #455b55;
-    background-color: #dff6da;
+    background-color: #FEFEFA;
     padding: 20px;
     margin: 10px;
     width: 20%;
@@ -155,14 +155,10 @@ figcaption {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     color: #455b55;
-    background-color: #dff6da;
+    background-color: #FEFEFA;
     padding: 20px;
     margin: 10px;
     width: 100px;
-    border-radius: 20px;
-    border-style: double;
-    border-width: 3px;
-    border-color: #4e793b;
 }
 
 .contact a {
@@ -172,14 +168,14 @@ figcaption {
 
 .contact a:hover {
     text-decoration: none;
-    color:#dff6da;
+    color:#FEFEFA;
     background-color:#455b55;
     border-radius: 50px;
     padding: 0px 5px 0 5px;
 }
 
 footer {
-    background-color: #B9D9EB;
+    background-color: #FEFEFA;
     margin: 0px;
     padding: 3px;
 }
