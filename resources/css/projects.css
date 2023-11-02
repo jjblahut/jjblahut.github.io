@@ -68,7 +68,7 @@ p {
     font-size: 18px;
 }
 
-.swift-swift-app img {
+.project-bubble img {
     width: auto;
     height: 300px;
     margin: 5px;
@@ -76,9 +76,10 @@ p {
     box-shadow: 5px 5px 5px #455b55;
 }
 
-.swift-swift-app {
+.project-bubble {
     background-color: #FEFEFA;
-    padding: 5px;
+    padding: 10px;
+    margin: 20px;
     border-radius: 30px;
     width: 80%
 }
