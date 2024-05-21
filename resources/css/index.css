@@ -3,14 +3,50 @@ body {
 }
 
 .welcome-banner {
-    background-image: url("gaudi4.jpg");
-    height: 300px;
+    background-color: #B7CECE;
+    height: 600px;
     width: auto;
     background-size: cover;
+    position: relative;
+    border-bottom: 1.5px solid #7371FC;
+}
+
+.welcome-banner img {
+    height: 450px;
+    width: 400px;
+    border-radius: 50px;
+    margin: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    margin-left: 950px;
+}
+
+.welcome-banner h1 {
+    font-family: 'Bodoni Moda';
+    font-size: 80px;
+    font-weight: lighter;
+    margin: 0px;
+    margin-left: 100px;
+    top: 50%;
+    transform: translateY(-80%);
+    position: absolute;
+}
+
+.welcome-banner p {
+    font-family: 'Bodoni Moda';
+    font-size: 30px;
+    font-weight: 1;
+    line-height: 1.2;
+    margin: 0px;
+    margin-left: 100px;
+    top: 50%;
+    transform: translateY(50%);
+    position: absolute;
 }
 
 .welcome-message {
-    font-family: 'Lucida Console';
+    font-family: 'Bodoni Moda';
     background-color: white;
     width: 440px;
     padding: 5px;
@@ -20,153 +56,120 @@ body {
     display: inline-block;
 }
 
-.page-background {
-    background-image: linear-gradient(to bottom right,#dff6da, #4e793b);
-    padding: 10px 10px;
-}
-
-.intro {
-    background-color: #FEFEFA;
-    width: 220px;
-    height: 130px;
-    margin: 20px 20px 20px 20px;
-    border-radius: 20px;
-    display: flex;
-    align-content: center;
-    border-style: double;
-    border-width: 3px;
-    border-color: #4e793b;
-}
-
-.intro p {
-    font-family: 'Courier New', Courier, monospace;
-    color: #455b55;
-    font-weight: medium;
-    font-size: 20px;
-    width: 50px;
-    height: 50px;
-    text-align: left;
-    margin: 30px 30px 30px 0px;
-    padding-left: 15px;
-    display: inline-block;
-}
-
-.intro img {
-    height: 110px;
-    width: 100px;
-    border-radius: 50px;
-    box-shadow: 5px 5px 5px #455b55;
-    margin: 5px;
-}
-
-
 nav {
     list-style-type: none;
     width: 100%;
-    background-color: #4e793b;
-    text-align: center;
-    position: fixed;
-    opacity: 90%;
+    height: 80px;
+    background-color: white;
+    text-align: right;
+    align-content: center;
+    border-bottom: 1.5px solid #080708;
 }
 
 nav li {
-    font-family: 'Lucida Console';
+    font-family: 'Bodoni Moda';
     font-size: 20px;
     font-weight: medium;
-    color: white;
+    color: #080708;
     text-align: center;
     display: inline;
-    margin: 20px;
+    margin: 0px 40px 0px 40px;
 }
 
 nav a:hover {
-    color: #455b55;
-    background-color: #FEFEFA;
+    color: #FEFEFA;
+    background-color: #C98686;
 }
 
 nav a {
     display: inline-block;
     padding-right: 8px;
-    color: white;
+    color: #080708;
     text-decoration: none;
 }
 
 h1 {
-    font-family: 'Lucida Console';
+    font-family: 'Bodoni Moda';
     margin: 40px 40px 40px 40px;
-    color: #455b55;
+    color: #080708;
 }
 
-.about-me h2 {
-    font-family: 'Lucida Console';
-    margin: 40px 40px 0px 40px;
-    color: #455b55;
+.page-background {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    position: relative;
+    border-bottom: 1.5px solid #C98686;
 }
 
-.about-me p {
-    font-family: 'Courier New', Courier, monospace;
-    color: #455b55;
-    background-color: #FEFEFA;
-    padding: 20px;
-    margin: 10px;
-    width: 50%;
-    border-radius: 20px;
-    border-style: double;
-    border-width: 3px;
-    border-color: #4e793b;
+.page-background img {
+    width: auto;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
 }
 
-.about-me img {
-    width: 400px;
-    height: auto;
-    align-items: center;
-    margin: 40px 30px 10px 30px;
-    box-shadow: 5px 5px 5px #455b55;
+.page-background h1 {
+    font-family: 'Bodoni Moda';
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0px;
+    margin-left: 850px;
+    top: 25%;
+    transform: translateY(-150%);
+    position: absolute;
 }
 
-.about-me ul {
-    font-family: 'Courier New', Courier, monospace;
-    color: #455b55;
-    background-color: #FEFEFA;
-    padding: 20px;
-    margin: 10px;
-    width: 20%;
-    border-radius: 20px;
-    list-style-type: circle;
-    border-style: double;
-    border-width: 3px;
-    border-color: #4e793b;
+.page-background h2 {
+    font-family: 'Bodoni Moda';
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0px;
+    margin-left: 850px;
+    top: 25%;
+    transform: translateY(0%);
+    position: absolute;
 }
 
-figcaption {
-    font-family: 'Courier New', Courier, monospace;
-    color:#455b55;
-    margin: 0px 30px 30px 30px;
-    width: 400px;
+.page-background p {
+    font-family: 'Bodoni Moda';
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px;
+    margin-left: 850px;
+    margin-right: 80px;
+    top: 25%;
+    transform: translateY(50%);
+    position: absolute;
 }
 
 .contact h2 {
-    font-family: 'Lucida Console';
+    font-family: 'Bodoni Moda';
     margin: 40px 40px 0px 40px;
-    color: #455b55;
+    color: #080708;
 }
 
 .contact p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Bodoni Moda';
     font-size: 20px;
-    color: #455b55;
-    background-color: #FEFEFA;
+    color: white;
+    background-color: #4B644A;
     padding: 20px;
     margin: 10px;
 }
 
 .contact a {
     text-decoration: none;
-    color:#455b55;
+    color:white;
+}
+
+.contact a:visited {
+    text-decoration: none;
+    background-color: none;
 }
 
 footer {
-    background-color: #FEFEFA;
+    background-color: #4B644A;
     margin: 0px;
     padding: 3px;
 }
