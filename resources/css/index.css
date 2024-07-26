@@ -14,8 +14,8 @@ body {
 }
 
 .welcome-banner img {
-    height: auto;
-    max-width: 20%;
+    height: 80%;
+    max-width: auto;
     border-radius: 50px;
     margin: 0px;
     top: 50%;
@@ -91,7 +91,7 @@ nav a {
 .page-background img {
     width: 50%;
     height: auto;
-    margin: 0px;
+    margin-bottom: -4px;
     padding: 0px;
 }
 
@@ -101,7 +101,7 @@ nav a {
     font-weight: lighter;
     margin: 0px;
     margin-left: 60%;
-    top: 25%;
+    top: 40%;
     transform: translateY(-150%);
     position: absolute;
 }
@@ -121,7 +121,7 @@ nav a {
     font-family: 'Bodoni Moda';
     font-size: 1.5vw;
     font-weight: lighter;
-    margin: 0px;
+    margin-bottom: 0px;
     margin-left: 60%;
     margin-right: 80px;
     top: 25%;

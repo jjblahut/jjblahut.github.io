@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: BodoniURW-Lig, 'Bodoni URW';
+        font-size: 12px;
+      }
+
+      .cls-2 {
+        fill: #7371fc;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="8" cy="8" r="8"/>
+  <text class="cls-1" transform="translate(2.01 11.32)"><tspan x="0" y="0">JB</tspan></text>
+</svg>

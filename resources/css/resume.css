@@ -1,60 +1,56 @@
 body {
     margin: 0px;
+    height: 1000px;
 }
 
-.welcome-banner {
-    background-image: url("gaudi4.jpg");
-    height: 300px;
-    width: auto;
-    background-size: cover;
-}
-
-.welcome-message {
-    font-family: 'Lucida Console';
-    background-color: white;
-    width: 440px;
-    padding: 5px;
-    margin: 5px;
-    opacity: .60;
+.resume-welcome-banner {
+    background-color: #B7CECE;
     position: relative;
-    display: inline-block;
+    width: 100%;
+    height: 20%;
+    border-bottom: 2px solid #7371FC;
+    margin-top: 0px;
+    padding: 0px;
 }
 
 nav {
     list-style-type: none;
     width: 100%;
-    background-color: #4e793b;
-    text-align: center;
-    position: fixed;
-    opacity: 90%;
+    height: 80px;
+    background-color: white;
+    text-align: right;
+    align-content: center;
+    border-bottom: 2px solid #080708;
 }
 
 nav li {
-    font-family: 'Lucida Console';
+    font-family: 'Bodoni Moda';
     font-size: 20px;
     font-weight: medium;
-    color: white;
+    color: #080708;
     text-align: center;
     display: inline;
-    margin: 20px;
+    margin: 0px 40px 0px 40px;
 }
 
 nav a:hover {
-    color: #455b55;
-    background-color: #dff6da;
+    color: #FEFEFA;
+    background-color: #C98686;
 }
 
 nav a {
     display: inline-block;
     padding-right: 8px;
-    color: white;
+    color: #080708;
     text-decoration: none;
 }
 
 h1 {
-    font-family: 'Lucida Console';
-    margin: 40px 40px 40px 40px;
-    color: #455b55;
+    font-family: 'Bodoni Moda';
+    font-size: 4vw;
+    font-weight: lighter;
+    padding: 0px;
+    margin: 0px;
 }
 
 embed {
@@ -63,8 +59,15 @@ embed {
 }
 
 .resume-background {
-    background-color: #455b55;
+    background-color: #4B644A;
     border-radius: 50px;
     width: 900px;
     height: 1100px;
+}
+
+p {
+    font-family: 'Bodoni Moda';
+    font-size: 1.5vw;
+    font-weight: lighter;
+    
 }
