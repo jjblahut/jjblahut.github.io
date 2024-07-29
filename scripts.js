@@ -8,35 +8,26 @@ linkedInButton.addEventListener("mouseout", linkedInLeave);
 
 function emailHover() {
     emailButton.style.textDecoration = "none";
-    emailButton.style.color = "white";
-    emailButton.style.backgroundColor = "#C98686";
+    emailButton.style.color = "black";
+    emailButton.style.backgroundColor = "white";
     emailButton.style.padding = "0px 5px 0 5px";
 }
 
 function linkedInHover() {
     linkedInButton.style.textDecoration = "none";
-    linkedInButton.style.color = "white";
-    linkedInButton.style.backgroundColor = "#C98686";
+    linkedInButton.style.color = "black";
+    linkedInButton.style.backgroundColor = "white";
     linkedInButton.style.padding = "0px 5px 0 5px";
 }
 
 function emailLeave() {
     emailButton.style.textDecoration = "none";
     emailButton.style.color = "white";
-    emailButton.style.backgroundColor = "#4B644A";
+    emailButton.style.backgroundColor = "#23C9FF";
 }
 
 function linkedInLeave() {
     linkedInButton.style.textDecoration = "none";
     linkedInButton.style.color = "white";
-    linkedInButton.style.backgroundColor = "#4B644A";
-}
-
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
+    linkedInButton.style.backgroundColor = "#23C9FF";
 }

@@ -8,7 +8,7 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-    border-bottom: 2px solid #7371FC;
+    border-bottom: 2px solid #23C9FF;
     margin: 0px;
     padding: 0px;
     background-size: cover;
@@ -79,7 +79,7 @@ nav li {
 
 nav a:hover {
     color: #FEFEFA;
-    background-color: #C98686;
+    background-color: #57A773;
     display: flex;
 }
 
@@ -92,12 +92,22 @@ nav a {
     text-decoration: none;
 }
 
+nav a.active {
+    color: #23C9FF;
+}
+
+nav a.active:hover {
+    background-color: #57A773;
+    color: white;
+
+}
+
 .page-background {
     margin: 0px;
     padding: 0px;
     background-color: white;
     position: relative;
-    border-bottom: 2px solid #C98686;
+    border-bottom: 2px solid #7371FC;
 }
 
 .page-background img {
@@ -151,7 +161,7 @@ nav a {
     font-family: 'Bodoni Moda';
     font-size: 20px;
     color: white;
-    background-color: #4B644A;
+    background-color: #23C9FF;
     padding: 20px;
     margin: 10px;
 }
@@ -167,7 +177,7 @@ nav a {
 }
 
 footer {
-    background-color: #4B644A;
+    background-color: #23C9FF;
     margin: 0px;
     padding: 3px;
 }
