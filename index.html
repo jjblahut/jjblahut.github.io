@@ -10,19 +10,23 @@
     </head>
     <body>
         
-        <nav>
+        <nav class="topnav" id="myTopnav">
             <ul>
                 <li style="float: left"><a href="index.html">Julia Blahut</a></li>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="resume.html">Resume</a></li>
                 <li><a href="projects.html">Projects</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a></li>
             </ul>
         </nav>
     
         <div class="welcome-banner">
-            <h1>Hey, I'm Julia.</h1>
-            <p>I'm an application developer with <br> an eye for design.</p>
-            <img src="resources\images\Portrait.JPG">
+            <div class="text-block">
+                <h1>Hey,<br>I'm Julia.</h1>
+                <p>I'm an application<br>developer with an eye<br>for design.</p>
+              </div>
         </div>
 
         <div class="page-background">
